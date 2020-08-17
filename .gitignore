@@ -1,4 +1,13 @@
+#arquivos particilares do projeto a serem eginorados
+
+*.ods
+*.xlsx
+
+
+
+
 # Byte-compiled / optimized / DLL files
+
 __pycache__/
 *.py[cod]
 *$py.class
