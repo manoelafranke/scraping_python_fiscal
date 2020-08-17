@@ -3,7 +3,7 @@
 *.ods
 *.xlsx
 
-
+/venv2
 
 
 # Byte-compiled / optimized / DLL files

@@ -5,7 +5,7 @@ import json
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-
+import xlsxwriter
 
 def pegar_link(link_entrada):
     print("pegando link")
