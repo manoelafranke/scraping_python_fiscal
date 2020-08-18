@@ -11,7 +11,8 @@ def pegar_link(link_entrada):
     print("pegando link")
     option = Options()
     option.headless = True
-    driver = webdriver.Firefox(executable_path=r'./geckodriver')
+    #driver = webdriver.Firefox(executable_path=r'./geckodriver')
+    driver = webdriver.Chrome(executable_path='./chromedriver')
     driver.get(link_entrada)
 
     time.sleep(5)
@@ -34,7 +35,8 @@ url = pegar_link(link_entrada)
 
 option = Options()
 option.headless = True
-driver = webdriver.Firefox( executable_path=r'./geckodriver')
+#driver = webdriver.Firefox( executable_path=r'./geckodriver')
+driver = webdriver.Chrome(executable_path='./chromedriver')
 driver.get(url)
 
 time.sleep(5)
